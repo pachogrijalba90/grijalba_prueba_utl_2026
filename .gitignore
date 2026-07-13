@@ -1,0 +1,19 @@
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# NOTA: db/puestos_2026.db (23 MB) y sample_data/ (39 MB) SÍ se versionan
+# (ambos < 50 MB), conforme a la estructura obligatoria de la prueba.
+# El manifest generado se regenera; se versiona igualmente como evidencia.

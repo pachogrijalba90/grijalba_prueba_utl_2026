@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "candidato": "GRIJALBA",
+    "email": "PENDIENTE@correo.com",
+    "repo_url": "https://github.com/pachogrijalba90/grijalba_prueba_utl_2026"
+  },
+  "retos": {
+    "reto_1_2": {
+      "municipios_esperados": 4,
+      "municipios_presentes": 4,
+      "puestos_por_municipio": {
+        "DUITAMA": 22,
+        "PAIPA": 7,
+        "SOGAMOSO": 18,
+        "TUNJA": 26
+      },
+      "filas_resultado_candidato": 99353,
+      "partidos": 91,
+      "lider_se_por_municipio": {
+        "TUNJA": {
+          "codpar": "92",
+          "partido": "PACTO HISTÓRICO",
+          "votos_lista_se": 20651
+        },
+        "PAIPA": {
+          "codpar": "92",
+          "partido": "PACTO HISTÓRICO",
+          "votos_lista_se": 3669
+        },
+        "SOGAMOSO": {
+          "codpar": "92",
+          "partido": "PACTO HISTÓRICO",
+          "votos_lista_se": 13957
+        },
+        "DUITAMA": {
+          "codpar": "92",
+          "partido": "PACTO HISTÓRICO",
+          "votos_lista_se": 15423
+        }
+      }
+    },
+    "tarea_3_1": {
+      "status": "OK",
+      "n_filas": 73,
+      "columnas": [
+        "municipio",
+        "puesto_codigo",
+        "puesto_nombre",
+        "votos_ca_verde",
+        "votos_se_verde",
+        "ratio_arrastre_se_ca"
+      ],
+      "muestra": [
+        {
+          "municipio": "DUITAMA",
+          "puesto_codigo": "0700079020006",
+          "puesto_nombre": "PARQUE LA ESPERANZA",
+          "votos_ca_verde": 7,
+          "votos_se_verde": 22,
+          "ratio_arrastre_se_ca": 3.143
+        },
+        {
+          "municipio": "DUITAMA",
+          "puesto_codigo": "0700079990020",
+          "puesto_nombre": "QUEBRADA DE BECERRA",
+          "votos_ca_verde": 2,
+          "votos_se_verde": 5,
+          "ratio_arrastre_se_ca": 2.5
+        },
+        {
+          "municipio": "DUITAMA",
+          "puesto_codigo": "0700079020004",
+          "puesto_nombre": "COL.FRANCISCO DE PAULA SANTAN",
+          "votos_ca_verde": 26,
+          "votos_se_verde": 45,
+          "ratio_arrastre_se_ca": 1.731
+        },
+        {
+          "municipio": "DUITAMA",
+          "puesto_codigo": "0700079020003",
+          "puesto_nombre": "U.P.T.C.",
+          "votos_ca_verde": 29,
+          "votos_se_verde": 48,
+          "ratio_arrastre_se_ca": 1.655
+        },
+        {
+          "municipio": "DUITAMA",
+          "puesto_codigo": "0700079010005",
+          "puesto_nombre": "COL SANTO T DE AQUINO SD PRIA 2",
+          "votos_ca_verde": 16,
+          "votos_se_verde": 23,
+          "ratio_arrastre_se_ca": 1.438
+        }
+      ]
+    },
+    "tarea_3_2": {
+      "status": "OK",
+      "n_filas": 144,
+      "columnas": [
+        "municipio",
+        "corporacion",
+        "puesto_codigo",
+        "puesto_nombre",
+        "partido",
+        "codpar",
+        "nombre_candidato",
+        "votos_candidato",
+        "votos_partido_nom",
+        "pct_dominancia"
+      ],
+      "muestra": [
+        {
+          "municipio": "TUNJA",
+          "corporacion": "SE",
+          "puesto_codigo": "0700001010005",
+          "puesto_nombre": "AUDITORIO GUSTAVO M CASTELLANOS COMFABOY",
+          "partido": "PARTIDO 11 (SE)",
+          "codpar": "11",
+          "nombre_candidato": "MARTHA ISABEL PERALTA EPIEYU",
+          "votos_candidato": 24,
+          "votos_partido_nom": 24,
+          "pct_dominancia": 100.0
+        },
+        {
+          "municipio": "TUNJA",
+          "corporacion": "SE",
+          "puesto_codigo": "0700001030004",
+          "puesto_nombre": "COLISEO I.R.D.ET",
+          "partido": "PARTIDO 11 (SE)",
+          "codpar": "11",
+          "nombre_candidato": "MARTHA ISABEL PERALTA EPIEYU",
+          "votos_candidato": 11,
+          "votos_partido_nom": 11,
+          "pct_dominancia": 100.0
+        },
+        {
+          "municipio": "PAIPA",
+          "corporacion": "SE",
+          "puesto_codigo": "0700181990001",
+          "puesto_nombre": "PALERMO",
+          "partido": "PARTIDO 3 (SE)",
+          "codpar": "3",
+          "nombre_candidato": "SOLEDAD TAMAYO TAMAYO",
+          "votos_candidato": 322,
+          "votos_partido_nom": 332,
+          "pct_dominancia": 97.0
+        },
+        {
+          "municipio": "DUITAMA",
+          "corporacion": "CA",
+          "puesto_codigo": "0700079990005",
+          "puesto_nombre": "SIRATA",
+          "partido": "PARTIDO CONSERVADOR",
+          "codpar": "2",
+          "nombre_candidato": "HECTOR DAVID CHAPARRO CHAPARRO",
+          "votos_candidato": 124,
+          "votos_partido_nom": 131,
+          "pct_dominancia": 94.7
+        },
+        {
+          "municipio": "PAIPA",
+          "corporacion": "CA",
+          "puesto_codigo": "0700181990001",
+          "puesto_nombre": "PALERMO",
+          "partido": "ALIANZA VERDE",
+          "codpar": "5",
+          "nombre_candidato": "YAMIT NOE HURTADO NEIRA",
+          "votos_candidato": 295,
+          "votos_partido_nom": 313,
+          "pct_dominancia": 94.2
+        }
+      ]
+    },
+    "tarea_3_3": {
+      "status": "OK",
+      "n_filas": 5,
+      "columnas": [
+        "nombre_candidato",
+        "partido",
+        "codpar",
+        "votos_cand",
+        "votos_se_partido",
+        "atribucion_se"
+      ],
+      "muestra": [
+        {
+          "nombre_candidato": "JOHN EDICKSON AMAYA RODRIGUEZ",
+          "partido": "ALIANZA VERDE",
+          "codpar": "57",
+          "votos_cand": 14036,
+          "votos_se_partido": 2497,
+          "atribucion_se": 1015.1
+        },
+        {
+          "nombre_candidato": "JUAN CAMILO OSTOS ROMERO",
+          "partido": "PARTIDO 17 (SE)",
+          "codpar": "17",
+          "votos_cand": 7085,
+          "votos_se_partido": 1339,
+          "atribucion_se": 803.8
+        },
+        {
+          "nombre_candidato": "HORACIO JOSE SERPA MONCADA",
+          "partido": "PARTIDO CONSERVADOR",
+          "codpar": "2",
+          "votos_cand": 3083,
+          "votos_se_partido": 1527,
+          "atribucion_se": 347.5
+        },
+        {
+          "nombre_candidato": "ARIEL FERNANDO AVILA MARTINEZ",
+          "partido": "ALIANZA VERDE",
+          "codpar": "57",
+          "votos_cand": 4609,
+          "votos_se_partido": 2497,
+          "atribucion_se": 333.3
+        },
+        {
+          "nombre_candidato": "GERSSON VARGAS VALDELEON",
+          "partido": "PARTIDO CONSERVADOR",
+          "codpar": "2",
+          "votos_cand": 2642,
+          "votos_se_partido": 1527,
+          "atribucion_se": 297.8
+        }
+      ]
+    }
+  },
+  "veredicto": {
+    "municipios": "4/4",
+    "sql_ok": true
+  }
+}

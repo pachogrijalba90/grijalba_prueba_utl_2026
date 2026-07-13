@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "candidato": "APELLIDO",
+    "email": "correo@ejemplo.com",
+    "repo_url": "https://github.com/USUARIO/apellido_prueba_utl_2026"
+  },
+  "retos": {
+    "reto_1_2": {
+      "municipios_esperados": 4,
+      "municipios_presentes": 4,
+      "puestos_por_municipio": {"TUNJA": 0, "PAIPA": 0, "SOGAMOSO": 0, "DUITAMA": 0},
+      "filas_resultado_candidato": 0,
+      "partidos": 0,
+      "lider_se_por_municipio": {
+        "TUNJA": {"codpar": "", "partido": "", "votos_lista_se": 0}
+      }
+    },
+    "tarea_3_1": {"status": "OK", "n_filas": 0, "columnas": [], "muestra": []},
+    "tarea_3_2": {"status": "OK", "n_filas": 0, "columnas": [], "muestra": []},
+    "tarea_3_3": {"status": "OK", "n_filas": 0, "columnas": [], "muestra": []}
+  },
+  "veredicto": {"municipios": "4/4", "sql_ok": true}
+}
