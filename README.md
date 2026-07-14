@@ -9,6 +9,16 @@ carga en SQLite, y análisis SQL de arrastre electoral. Datos **reales y definit
 > analítico (3), dashboard HTML interactivo (4) y visualizaciones en Python (5) — más el
 > manifiesto de evaluación que valida y captura los resultados automáticamente.
 
+## 🔗 Dashboard interactivo (abrir con un clic)
+
+**▶️ [Abrir el dashboard en el navegador](https://pachogrijalba90.github.io/grijalba_prueba_utl_2026/dashboard/)**
+
+Dashboard electoral interactivo (Reto 4): comparativo, arrastre CA→SE, treemap de puestos
+y mapa de Boyacá, con modo oscuro y exportación a CSV. Publicado vía GitHub Pages.
+
+_Alternativa sin conexión:_ descargar [`dashboard/index.html`](dashboard/index.html) y
+abrirlo en Chrome o Firefox (es autocontenido, no requiere servidor).
+
 ## Candidato
 
 - **Nombre:** GRIJALBA
