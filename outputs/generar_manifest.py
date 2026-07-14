@@ -12,7 +12,9 @@
 
 import argparse
 import json
+import re
 import sqlite3
+import subprocess
 import sys
 from pathlib import Path
 
@@ -118,10 +120,57 @@ def main() -> None:
 
     con.close()
 
+    # ---- Reto 4: dashboard (verificación de archivos) --------------------- #
+    dash = ROOT / "dashboard"
+    dash_ok = {
+        "index.html": (dash / "index.html").exists(),
+        "export_data.py": (dash / "export_data.py").exists(),
+        "data.json": (dash / "data.json").exists(),
+    }
+    manifest["retos"]["reto_4_dashboard"] = {
+        "archivos": dash_ok,
+        "index_bytes": (dash / "index.html").stat().st_size if dash_ok["index.html"] else 0,
+    }
+    print("\n[Reto 4]  Dashboard: " +
+          " ".join(f"{k}={'OK' if v else 'FALTA'}" for k, v in dash_ok.items()))
+
+    # ---- Reto 5: visualizaciones (ejecuta scatter y captura r/pendiente/n) - #
+    print("\n[Reto 5]  Ejecutando visualizaciones...")
+    viz = {"heatmap_png": (ROOT / "viz" / "heatmap_municipios.png"),
+           "scatter_png": (ROOT / "viz" / "scatter_ca_se.png")}
+    reto5 = {}
+    for script in ["heatmap.py", "scatter.py"]:
+        ruta = ROOT / "viz" / script
+        try:
+            out = subprocess.run([sys.executable, str(ruta)], capture_output=True,
+                                 text=True, timeout=120)
+            salida = (out.stdout + out.stderr).strip()
+            reto5[script] = {"status": "OK" if out.returncode == 0 else "ERROR"}
+            # captura la línea r=... | pendiente=... | n_mesas=...
+            m = re.search(r"r=([\d.]+)\s*\|\s*pendiente=([\d.-]+)\s*\|\s*n_mesas=(\d+)",
+                          salida)
+            if m:
+                reto5[script].update(r=float(m.group(1)),
+                                     pendiente=float(m.group(2)),
+                                     n_mesas=int(m.group(3)))
+                print(f"            {script}: r={m.group(1)} "
+                      f"pendiente={m.group(2)} n_mesas={m.group(3)}")
+            else:
+                print(f"            {script}: {reto5[script]['status']}")
+        except Exception as exc:
+            reto5[script] = {"status": "ERROR", "error": str(exc)}
+            print(f"            {script}: ERROR ({exc})")
+    for nombre, ruta in viz.items():
+        reto5[nombre] = {"existe": ruta.exists(),
+                         "bytes": ruta.stat().st_size if ruta.exists() else 0}
+    manifest["retos"]["reto_5_viz"] = reto5
+
     # ---- Veredicto -------------------------------------------------------- #
     manifest["veredicto"] = {
         "municipios": f"{n_ok}/{len(MUNICIPIOS_ESPERADOS)}",
         "sql_ok": todo_ok,
+        "dashboard_ok": all(dash_ok.values()),
+        "viz_ok": all(reto5[p].get("status") == "OK" for p in ["heatmap.py", "scatter.py"]),
     }
     OUT_JSON.write_text(json.dumps(manifest, ensure_ascii=False, indent=2),
                         encoding="utf-8")

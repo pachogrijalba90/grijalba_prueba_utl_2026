@@ -1,0 +1,678 @@
+{
+  "colores_partido": {
+    "ALIANZA VERDE": "#007C34",
+    "PACTO HISTÓRICO": "#7B2D8B",
+    "CENTRO DEMOCRÁTICO": "#1E477D",
+    "PARTIDO CONSERVADOR": "#E07B00"
+  },
+  "comparativo": [
+    {
+      "municipio": "Tunja",
+      "votos_ca": 73845
+    },
+    {
+      "municipio": "Duitama",
+      "votos_ca": 48690
+    },
+    {
+      "municipio": "Sogamoso",
+      "votos_ca": 51445
+    },
+    {
+      "municipio": "Paipa",
+      "votos_ca": 16907
+    }
+  ],
+  "por_municipio": {
+    "Tunja": {
+      "top_ca": [
+        {
+          "nombre": "Ramiro Barragan Adame",
+          "votos": 4294,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Jaime Raul Salamanca Torres",
+          "votos": 3986,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Yamit Noe Hurtado Neira",
+          "votos": 3933,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Ingrid Marlen Sogamoso Alfonso",
+          "votos": 2903,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Fabian Camilo Rojas Barrera",
+          "votos": 2848,
+          "codpar": "122"
+        },
+        {
+          "nombre": "Wilder Ivan Suesca Ochoa",
+          "votos": 2756,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Hector David Chaparro Chaparro",
+          "votos": 2341,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Jose Dario Mahecha Castillo",
+          "votos": 2242,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Oscar Leonardo Avila Romero",
+          "votos": 2180,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Jairo Enrique Castiblanco Parra",
+          "votos": 1911,
+          "codpar": "120"
+        }
+      ],
+      "lider_se": {
+        "partido": "PACTO HISTÓRICO",
+        "votos": 20651
+      }
+    },
+    "Duitama": {
+      "top_ca": [
+        {
+          "nombre": "Hector David Chaparro Chaparro",
+          "votos": 4559,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Jaime Raul Salamanca Torres",
+          "votos": 2198,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Hernel David Ortega Gomez",
+          "votos": 1558,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Ramiro Barragan Adame",
+          "votos": 1518,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Yamit Noe Hurtado Neira",
+          "votos": 1316,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Ingrid Marlen Sogamoso Alfonso",
+          "votos": 1148,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Nancy Yaneth Zapata Pachon",
+          "votos": 1136,
+          "codpar": "120"
+        },
+        {
+          "nombre": "Jicly Esgardo Mutis Isaza",
+          "votos": 1064,
+          "codpar": "10"
+        },
+        {
+          "nombre": "Eduar Alexis Triana Rincon",
+          "votos": 924,
+          "codpar": "10"
+        },
+        {
+          "nombre": "Jose Dario Mahecha Castillo",
+          "votos": 920,
+          "codpar": "121"
+        }
+      ],
+      "lider_se": {
+        "partido": "PACTO HISTÓRICO",
+        "votos": 15423
+      }
+    },
+    "Sogamoso": {
+      "top_ca": [
+        {
+          "nombre": "Hector David Chaparro Chaparro",
+          "votos": 5568,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Ramiro Barragan Adame",
+          "votos": 2771,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Diana Paola Herrera Nuñez",
+          "votos": 1962,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Jaime Raul Salamanca Torres",
+          "votos": 1757,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Nadia Alexandra Carreño Avella",
+          "votos": 1736,
+          "codpar": "122"
+        },
+        {
+          "nombre": "Fabian Camilo Rojas Barrera",
+          "votos": 1380,
+          "codpar": "122"
+        },
+        {
+          "nombre": "Yury Neill Diaz Aranguren",
+          "votos": 1342,
+          "codpar": "120"
+        },
+        {
+          "nombre": "Jairo Enrique Castiblanco Parra",
+          "votos": 1319,
+          "codpar": "120"
+        },
+        {
+          "nombre": "Oscar Leonardo Avila Romero",
+          "votos": 1237,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Yamit Noe Hurtado Neira",
+          "votos": 1201,
+          "codpar": "5"
+        }
+      ],
+      "lider_se": {
+        "partido": "PACTO HISTÓRICO",
+        "votos": 13957
+      }
+    },
+    "Paipa": {
+      "top_ca": [
+        {
+          "nombre": "Yamit Noe Hurtado Neira",
+          "votos": 4756,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Jaime Raul Salamanca Torres",
+          "votos": 1465,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Hector David Chaparro Chaparro",
+          "votos": 1393,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Eduar Alexis Triana Rincon",
+          "votos": 869,
+          "codpar": "10"
+        },
+        {
+          "nombre": "Wilder Ivan Suesca Ochoa",
+          "votos": 729,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Ramiro Barragan Adame",
+          "votos": 353,
+          "codpar": "5"
+        },
+        {
+          "nombre": "Oscar Leonardo Avila Romero",
+          "votos": 273,
+          "codpar": "2"
+        },
+        {
+          "nombre": "Nancy Yaneth Zapata Pachon",
+          "votos": 268,
+          "codpar": "120"
+        },
+        {
+          "nombre": "Ingrid Marlen Sogamoso Alfonso",
+          "votos": 195,
+          "codpar": "121"
+        },
+        {
+          "nombre": "Hernel David Ortega Gomez",
+          "votos": 185,
+          "codpar": "121"
+        }
+      ],
+      "lider_se": {
+        "partido": "PACTO HISTÓRICO",
+        "votos": 3669
+      }
+    }
+  },
+  "arrastre": {
+    "Tunja": [
+      {
+        "puesto": "AUDITORIO GUSTAVO M CASTELLANOS COMFABOY",
+        "ca": 21,
+        "se": 36,
+        "ratio": 1.714
+      },
+      {
+        "puesto": "C.A.S.D. BARRIO SAN ANTONIO",
+        "ca": 29,
+        "se": 49,
+        "ratio": 1.69
+      },
+      {
+        "puesto": "CARCEL",
+        "ca": 1,
+        "se": 0,
+        "ratio": 0.0
+      },
+      {
+        "puesto": "COL DE BOYACA SD JOSE IGNACIO DE MARQUEZ",
+        "ca": 16,
+        "se": 25,
+        "ratio": 1.562
+      },
+      {
+        "puesto": "COL. BOYACA FCO DE PAULA SANTANDER",
+        "ca": 66,
+        "se": 71,
+        "ratio": 1.076
+      },
+      {
+        "puesto": "COLEGIO SALESIANO MALDONADO",
+        "ca": 42,
+        "se": 56,
+        "ratio": 1.333
+      },
+      {
+        "puesto": "COLISEO CUBIERTO MUNICIPAL",
+        "ca": 43,
+        "se": 18,
+        "ratio": 0.419
+      },
+      {
+        "puesto": "COLISEO I.R.D.ET",
+        "ca": 31,
+        "se": 26,
+        "ratio": 0.839
+      },
+      {
+        "puesto": "COLISEO MUNICIPAL COMFABOY",
+        "ca": 29,
+        "se": 26,
+        "ratio": 0.897
+      },
+      {
+        "puesto": "COLISEO SAN ANTONIO",
+        "ca": 23,
+        "se": 34,
+        "ratio": 1.478
+      },
+      {
+        "puesto": "COLISEO UNIBOYACA",
+        "ca": 59,
+        "se": 37,
+        "ratio": 0.627
+      },
+      {
+        "puesto": "I.E GUSTAVO ROJAS PINILLA SD CENTRAL",
+        "ca": 20,
+        "se": 31,
+        "ratio": 1.55
+      },
+      {
+        "puesto": "I.E. ANTONIO JOSE SANDOVAL GOMEZ",
+        "ca": 14,
+        "se": 11,
+        "ratio": 0.786
+      },
+      {
+        "puesto": "I.E. SILVINO RODRIGUEZ SD MANZANARES",
+        "ca": 4,
+        "se": 4,
+        "ratio": 1.0
+      },
+      {
+        "puesto": "I.T. GONZALO SUAREZ RENDON SEDE CENTRAL",
+        "ca": 95,
+        "se": 96,
+        "ratio": 1.011
+      },
+      {
+        "puesto": "IE LIBERTADOR SIMON BOLIVAR SEDE CENTRAL",
+        "ca": 24,
+        "se": 32,
+        "ratio": 1.333
+      },
+      {
+        "puesto": "IE LIBERTADOR SIMON BOLIVAR SN FRANCISCO",
+        "ca": 9,
+        "se": 18,
+        "ratio": 2.0
+      },
+      {
+        "puesto": "IE NORMAL SUPERIOR SD JARDIN NACIONAL",
+        "ca": 30,
+        "se": 27,
+        "ratio": 0.9
+      },
+      {
+        "puesto": "IES JUAN CASTELLANOS SD CRISANTO LUQUE",
+        "ca": 92,
+        "se": 87,
+        "ratio": 0.946
+      },
+      {
+        "puesto": "INEM CARLOS ARTURO TORRES SD CENTRAL",
+        "ca": 50,
+        "se": 51,
+        "ratio": 1.02
+      },
+      {
+        "puesto": "N. S. LEONOR ALVAREZ PINZON PRIMARIA",
+        "ca": 5,
+        "se": 6,
+        "ratio": 1.2
+      },
+      {
+        "puesto": "PUENTE DE BOYACA",
+        "ca": 1,
+        "se": 4,
+        "ratio": 4.0
+      },
+      {
+        "puesto": "PUESTO CENSO (COL. BOY SAN AGUSTIN)",
+        "ca": 28,
+        "se": 37,
+        "ratio": 1.321
+      },
+      {
+        "puesto": "UNIVERSIDAD JUAN DE CASTELLANOS",
+        "ca": 30,
+        "se": 34,
+        "ratio": 1.133
+      },
+      {
+        "puesto": "UNIVERSIDAD SANTO TOMAS",
+        "ca": 45,
+        "se": 51,
+        "ratio": 1.133
+      }
+    ],
+    "Duitama": [
+      {
+        "puesto": "ANTIGUO TERMINAL DE TRANSPORTE",
+        "ca": 60,
+        "se": 63,
+        "ratio": 1.05
+      },
+      {
+        "puesto": "AVENDAÑOS",
+        "ca": 2,
+        "se": 2,
+        "ratio": 1.0
+      },
+      {
+        "puesto": "COL GUILLERMO LEON VALENCIA",
+        "ca": 54,
+        "se": 75,
+        "ratio": 1.389
+      },
+      {
+        "puesto": "COL JESUS EUCARISTIA",
+        "ca": 14,
+        "se": 19,
+        "ratio": 1.357
+      },
+      {
+        "puesto": "COL LA NUEVA FAMILIA",
+        "ca": 35,
+        "se": 30,
+        "ratio": 0.857
+      },
+      {
+        "puesto": "COL SANTO T DE AQUINO SD PRIA 1",
+        "ca": 28,
+        "se": 27,
+        "ratio": 0.964
+      },
+      {
+        "puesto": "COL SANTO T DE AQUINO SD PRIA 2",
+        "ca": 16,
+        "se": 23,
+        "ratio": 1.438
+      },
+      {
+        "puesto": "COL.FRANCISCO DE PAULA SANTAN",
+        "ca": 26,
+        "se": 45,
+        "ratio": 1.731
+      },
+      {
+        "puesto": "COLEGIO BOYACA",
+        "ca": 56,
+        "se": 61,
+        "ratio": 1.089
+      },
+      {
+        "puesto": "COLEGIO JAIRO ANIBAL NIÑO",
+        "ca": 7,
+        "se": 9,
+        "ratio": 1.286
+      },
+      {
+        "puesto": "COLEGIO SALESIANO",
+        "ca": 43,
+        "se": 46,
+        "ratio": 1.07
+      },
+      {
+        "puesto": "COLEGIO SEMINARIO",
+        "ca": 20,
+        "se": 27,
+        "ratio": 1.35
+      },
+      {
+        "puesto": "COLEGIO SIMON BOLIVAR",
+        "ca": 33,
+        "se": 29,
+        "ratio": 0.879
+      },
+      {
+        "puesto": "PARQUE LA ESPERANZA",
+        "ca": 7,
+        "se": 22,
+        "ratio": 3.143
+      },
+      {
+        "puesto": "QUEBRADA DE BECERRA",
+        "ca": 2,
+        "se": 5,
+        "ratio": 2.5
+      },
+      {
+        "puesto": "SALON COMUNAL TOCOGUA",
+        "ca": 5,
+        "se": 4,
+        "ratio": 0.8
+      },
+      {
+        "puesto": "SAN ANTONIO NORTE",
+        "ca": 18,
+        "se": 17,
+        "ratio": 0.944
+      },
+      {
+        "puesto": "SIRATA",
+        "ca": 6,
+        "se": 8,
+        "ratio": 1.333
+      },
+      {
+        "puesto": "SURBA Y BONZA",
+        "ca": 29,
+        "se": 26,
+        "ratio": 0.897
+      },
+      {
+        "puesto": "U.P.T.C.",
+        "ca": 29,
+        "se": 48,
+        "ratio": 1.655
+      }
+    ],
+    "Sogamoso": [
+      {
+        "puesto": "COL NZADO GUSTAVO JIMENEZ",
+        "ca": 24,
+        "se": 19,
+        "ratio": 0.792
+      },
+      {
+        "puesto": "COL POLITÉCNICO",
+        "ca": 25,
+        "se": 24,
+        "ratio": 0.96
+      },
+      {
+        "puesto": "COL REYES PATRIA",
+        "ca": 26,
+        "se": 31,
+        "ratio": 1.192
+      },
+      {
+        "puesto": "COLEGIO CELCO",
+        "ca": 23,
+        "se": 24,
+        "ratio": 1.043
+      },
+      {
+        "puesto": "IE FRANCISCO DE PAULA SANTANDER",
+        "ca": 26,
+        "se": 34,
+        "ratio": 1.308
+      },
+      {
+        "puesto": "IE INSEANDES",
+        "ca": 33,
+        "se": 53,
+        "ratio": 1.606
+      },
+      {
+        "puesto": "IE INTEGRADO JOAQUIN GONZALEZ CAM",
+        "ca": 96,
+        "se": 97,
+        "ratio": 1.01
+      },
+      {
+        "puesto": "IE LIBERTADOR",
+        "ca": 96,
+        "se": 71,
+        "ratio": 0.74
+      },
+      {
+        "puesto": "IE MAGDALENA",
+        "ca": 82,
+        "se": 95,
+        "ratio": 1.159
+      },
+      {
+        "puesto": "IE SILVESTRE ARENAS",
+        "ca": 29,
+        "se": 31,
+        "ratio": 1.069
+      },
+      {
+        "puesto": "IE SUGAMUXI",
+        "ca": 36,
+        "se": 52,
+        "ratio": 1.444
+      },
+      {
+        "puesto": "IEPAGS SEDE ROSARIO",
+        "ca": 63,
+        "se": 43,
+        "ratio": 0.683
+      },
+      {
+        "puesto": "LA PLAYITA",
+        "ca": 3,
+        "se": 2,
+        "ratio": 0.667
+      },
+      {
+        "puesto": "LAS CINTAS",
+        "ca": 1,
+        "se": 0,
+        "ratio": 0.0
+      },
+      {
+        "puesto": "MORCA",
+        "ca": 3,
+        "se": 2,
+        "ratio": 0.667
+      },
+      {
+        "puesto": "UNIVERSIDAD DE BOYACA SEDE SOGAMOSO",
+        "ca": 103,
+        "se": 37,
+        "ratio": 0.359
+      }
+    ],
+    "Paipa": [
+      {
+        "puesto": "COLISEO MUNICIPAL DE DEPORTES DE PAIPA",
+        "ca": 56,
+        "se": 118,
+        "ratio": 2.107
+      },
+      {
+        "puesto": "EL VENADO",
+        "ca": 1,
+        "se": 3,
+        "ratio": 3.0
+      },
+      {
+        "puesto": "I.E. EL ROSARIO SEDE CENTRAL",
+        "ca": 106,
+        "se": 75,
+        "ratio": 0.708
+      },
+      {
+        "puesto": "I.E.EL ROSARIO SEDE CAMPESTRE",
+        "ca": 38,
+        "se": 84,
+        "ratio": 2.211
+      },
+      {
+        "puesto": "I.E.TOMAS VASQUEZ RODRIGUEZ",
+        "ca": 70,
+        "se": 123,
+        "ratio": 1.757
+      },
+      {
+        "puesto": "PALERMO",
+        "ca": 19,
+        "se": 11,
+        "ratio": 0.579
+      },
+      {
+        "puesto": "PANTANO DE VARGAS",
+        "ca": 9,
+        "se": 12,
+        "ratio": 1.333
+      }
+    ]
+  }
+}

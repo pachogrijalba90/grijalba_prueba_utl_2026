@@ -224,10 +224,39 @@
           "atribucion_se": 297.8
         }
       ]
+    },
+    "reto_4_dashboard": {
+      "archivos": {
+        "index.html": true,
+        "export_data.py": true,
+        "data.json": true
+      },
+      "index_bytes": 542879
+    },
+    "reto_5_viz": {
+      "heatmap.py": {
+        "status": "OK"
+      },
+      "scatter.py": {
+        "status": "OK",
+        "r": 0.978,
+        "pendiente": 1.273,
+        "n_mesas": 72
+      },
+      "heatmap_png": {
+        "existe": true,
+        "bytes": 88692
+      },
+      "scatter_png": {
+        "existe": true,
+        "bytes": 106928
+      }
     }
   },
   "veredicto": {
     "municipios": "4/4",
-    "sql_ok": true
+    "sql_ok": true,
+    "dashboard_ok": true,
+    "viz_ok": true
   }
 }
