@@ -20,9 +20,10 @@ DB = ROOT / "db" / "puestos_2026.db"
 OUT = ROOT / "dashboard" / "data.json"
 
 MUNICIPIOS = ["TUNJA", "DUITAMA", "SOGAMOSO", "PAIPA"]
-COLOR_PARTIDO = {  # colores obligatorios de la prueba (por nombre normalizado)
+COLOR_PARTIDO = {  # colores por partido (nombre normalizado; validado con datos 2026)
     "ALIANZA VERDE": "#007C34", "PACTO HISTÓRICO": "#7B2D8B",
     "CENTRO DEMOCRÁTICO": "#1E477D", "PARTIDO CONSERVADOR": "#E07B00",
+    "PARTIDO LIBERAL": "#E30716", "SALVACIÓN NACIONAL": "#F5A623",
 }
 
 

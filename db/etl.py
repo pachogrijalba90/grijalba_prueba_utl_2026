@@ -21,9 +21,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DB_DEFAULT = ROOT / "db" / "puestos_2026.db"
 
-# Colores y nombres OFICIALES de la prueba (espacio de códigos de resultados).
+# Colores y nombres de partido (espacio de códigos de RESULTADOS 2026).
 # codpar de Cámara (CA) y Senado (SE) difieren porque cada corporación numera
 # sus listas de forma independiente en los JSON de resultados.
+#
+# IMPORTANTE — códigos validados contra los datos reales de 2026:
+# La tabla del enunciado (PDF) usa los códigos de la elección de 2022. En 2026
+# la Registraduría reasignó algunos códigos, por lo que se validó cada uno contra
+# el candidato líder real (fuente: Cámara de Representantes / Congreso Visible):
+#   - codpar 2 NO es Conservador en 2026: es PARTIDO LIBERAL
+#     (Héctor Chaparro en CA; Horacio Serpa / Gersson Vargas en SE).
+#   - El Partido Conservador real en Senado es codpar 3 (Soledad Tamayo,
+#     Miguel Ángel Barreto).
+#   - codpar 5(CA)/57(SE) Verde, 87(CA)/92(SE) Pacto, 10 Centro Democrático:
+#     coinciden entre 2022 y 2026.
 PARTIDOS_OFICIALES = {
     # (codpar, corporacion): (nombre, color)
     ("5", "CA"):  ("ALIANZA VERDE", "#007C34"),
@@ -32,8 +43,10 @@ PARTIDOS_OFICIALES = {
     ("92", "SE"): ("PACTO HISTÓRICO", "#7B2D8B"),
     ("10", "CA"): ("CENTRO DEMOCRÁTICO", "#1E477D"),
     ("10", "SE"): ("CENTRO DEMOCRÁTICO", "#1E477D"),
-    ("2", "CA"):  ("PARTIDO CONSERVADOR", "#E07B00"),
-    ("2", "SE"):  ("PARTIDO CONSERVADOR", "#E07B00"),
+    ("2", "CA"):  ("PARTIDO LIBERAL", "#E30716"),
+    ("2", "SE"):  ("PARTIDO LIBERAL", "#E30716"),
+    ("3", "SE"):  ("PARTIDO CONSERVADOR", "#E07B00"),
+    ("17", "SE"): ("SALVACIÓN NACIONAL", "#F5A623"),
 }
 
 # Códigos scope de los 4 municipios (resueltos vía nomenclator, ver scraper).

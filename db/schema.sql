@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS resultado_candidato (
     id                INTEGER PRIMARY KEY AUTOINCREMENT,
     municipio         TEXT NOT NULL,
     corporacion       TEXT NOT NULL CHECK (corporacion IN ('SE', 'CA')),
-    circunscripcion   TEXT NOT NULL,          -- cam: 0=Nacional/Territorial, etc.
+    circunscripcion   TEXT NOT NULL,          -- cam: SE 0=Nacional; CA 1=Nacional, 5=Territorial; 4=especial
     puesto_codigo     TEXT NOT NULL,
     puesto_nombre     TEXT,
     codpar            TEXT NOT NULL,

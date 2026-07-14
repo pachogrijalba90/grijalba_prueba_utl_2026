@@ -138,7 +138,7 @@
           "corporacion": "SE",
           "puesto_codigo": "0700181990001",
           "puesto_nombre": "PALERMO",
-          "partido": "PARTIDO 3 (SE)",
+          "partido": "PARTIDO CONSERVADOR",
           "codpar": "3",
           "nombre_candidato": "SOLEDAD TAMAYO TAMAYO",
           "votos_candidato": 322,
@@ -150,7 +150,7 @@
           "corporacion": "CA",
           "puesto_codigo": "0700079990005",
           "puesto_nombre": "SIRATA",
-          "partido": "PARTIDO CONSERVADOR",
+          "partido": "PARTIDO LIBERAL",
           "codpar": "2",
           "nombre_candidato": "HECTOR DAVID CHAPARRO CHAPARRO",
           "votos_candidato": 124,
@@ -193,7 +193,7 @@
         },
         {
           "nombre_candidato": "JUAN CAMILO OSTOS ROMERO",
-          "partido": "PARTIDO 17 (SE)",
+          "partido": "SALVACIÓN NACIONAL",
           "codpar": "17",
           "votos_cand": 7085,
           "votos_se_partido": 1339,
@@ -201,7 +201,7 @@
         },
         {
           "nombre_candidato": "HORACIO JOSE SERPA MONCADA",
-          "partido": "PARTIDO CONSERVADOR",
+          "partido": "PARTIDO LIBERAL",
           "codpar": "2",
           "votos_cand": 3083,
           "votos_se_partido": 1527,
@@ -217,7 +217,7 @@
         },
         {
           "nombre_candidato": "GERSSON VARGAS VALDELEON",
-          "partido": "PARTIDO CONSERVADOR",
+          "partido": "PARTIDO LIBERAL",
           "codpar": "2",
           "votos_cand": 2642,
           "votos_se_partido": 1527,
@@ -231,7 +231,7 @@
         "export_data.py": true,
         "data.json": true
       },
-      "index_bytes": 542879
+      "index_bytes": 542643
     },
     "reto_5_viz": {
       "heatmap.py": {

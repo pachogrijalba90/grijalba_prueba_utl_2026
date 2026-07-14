@@ -109,6 +109,16 @@ municipio; y todo código de mesa construido devuelve 404 (incluidos los endpoin
 análisis en los retos que piden "mesa". El único desglose por mesa existente son las
 actas E-14 escaneadas (imágenes, sistema aparte), fuera del alcance de esta API.
 
+**Nota sobre los códigos de partido (validación 2026 vs. enunciado):** la tabla de
+`codpar` del enunciado corresponde a la elección de **2022**; para 2026 la Registraduría
+reasignó algunos códigos. Cada código se validó contra el candidato líder real (fuente:
+Cámara de Representantes / Congreso Visible). Hallazgo relevante: **`codpar 2` no es el
+Conservador en 2026, sino el Partido Liberal** (Héctor Chaparro en Cámara; Horacio Serpa
+y Gersson Vargas en Senado). El Partido Conservador real en Senado es `codpar 3` (Soledad
+Tamayo, Miguel Ángel Barreto). Los códigos de Verde (5/57), Pacto (87/92) y Centro
+Democrático (10) sí coinciden entre 2022 y 2026. La homologación se documenta en
+`db/etl.py`.
+
 ## Municipios en la BD
 
 4/4 municipios cargados, **99.353** filas candidato-puesto, **91** partidos:
@@ -123,7 +133,7 @@ actas E-14 escaneadas (imágenes, sistema aparte), fuera del alcance de esta API
 ## Hallazgos principales
 
 - **El Pacto Histórico lidera el Senado en los cuatro municipios** por voto de lista,
-  pese a que la Cámara está más fragmentada (Alianza Verde y Conservador con fuerte
+  pese a que la Cámara está más fragmentada (Alianza Verde y Partido Liberal con fuerte
   presencia territorial).
 
 - **Arrastre Verde CA→SE heterogéneo entre municipios** (ratio = votos de lista Verde al
@@ -141,13 +151,14 @@ actas E-14 escaneadas (imágenes, sistema aparte), fuera del alcance de esta API
 
 - **Dominancia extrema (Reto 3.2):** 144 casos de candidatos que concentran >60% de los
   votos de su partido en un puesto. Destacan liderazgos locales fuertes como Soledad
-  Tamayo (Conservador, 97% en Palermo–Paipa) y Yamit Hurtado (Verde, 94% en el mismo
-  puesto).
+  Tamayo (Conservador, Senado, 97% en Palermo–Paipa) y Yamit Hurtado (Verde, Cámara,
+  94% en el mismo puesto).
 
 - **El top por voto Cámara NO coincide con el top por atribución Senado (Reto 3.3, bonus):**
-  el top-5 por atribución SE (Reto 3.3) es John Amaya (Verde), Juan Ostos, Horacio Serpa
-  (Conservador), Ariel Ávila (Verde) y Gersson Vargas (Conservador), mientras que el top de
-  votos a Cámara son candidatos distintos (Héctor Chaparro, Yamit Hurtado, Jaime Salamanca…).
+  el top-5 por atribución SE (Reto 3.3) es John Amaya (Verde), Juan Ostos (Salvación
+  Nacional), Horacio Serpa (Liberal), Ariel Ávila (Verde) y Gersson Vargas (Liberal),
+  mientras que el top de votos a Cámara son candidatos distintos (Héctor Chaparro,
+  Yamit Hurtado, Jaime Salamanca…).
   La razón es estructural: Cámara y Senado son listas y
   candidaturas **distintas**, y la atribución `A_ij = (voto_cand/voto_partido)×voto_SE_lista`
   depende del voto de lista al **Senado**, no del desempeño en Cámara. Un candidato puede
