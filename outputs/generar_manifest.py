@@ -23,7 +23,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------- #
 META = {
     "candidato": "GRIJALBA",
-    "email": "PENDIENTE@correo.com",
+    "email": "pachogrijalba90@gmail.com",
     "repo_url": "https://github.com/pachogrijalba90/grijalba_prueba_utl_2026",
 }
 

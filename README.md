@@ -12,7 +12,7 @@ carga en SQLite, y análisis SQL de arrastre electoral. Datos **reales y definit
 ## Candidato
 
 - **Nombre:** GRIJALBA
-- **Email:** _(pendiente de completar en `outputs/generar_manifest.py` → `META`)_
+- **Email:** pachogrijalba90@gmail.com
 - **Repositorio:** https://github.com/pachogrijalba90/grijalba_prueba_utl_2026
 
 ## Instalación
